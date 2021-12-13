@@ -1,0 +1,10 @@
+#数据库连接串 & 密码
+mysql:
+  url: 'jdbc:mysql://localhost:3306/foodie_shop_dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true'
+  password: '{cipher}7552ca163f5d2f5dbe1058a152d6f34b875585ce6420c76d424563bad96f4835'
+
+#功能开关 - 开启/关闭注册功能
+userservice:
+  registration:
+    disabled: true
+    
